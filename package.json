@@ -1,0 +1,23 @@
+{
+  "name": "agl-code-test-v2",
+  "version": "1.0.0",
+  "description": "ui.js - Responsible for building UI, rendering HTML markups, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohxyz/agl-code-test-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohxyz/agl-code-test-v2/issues"
+  },
+  "homepage": "https://github.com/ohxyz/agl-code-test-v2#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

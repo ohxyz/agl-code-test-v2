@@ -1,12 +1,10 @@
 var AJAX = ( function () {
     
-    var fetchPeople = function ( onSuccess, onError ) {
-        
-        var jsonUrl = 'people.json';
+    var fetchPeople = function ( url, onSuccess, onError ) {
         
         var jqxhr = $.ajax( {
         
-                url: jsonUrl,
+                url: url,
                 dataType: 'json'
             
             } )

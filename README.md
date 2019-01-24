@@ -1,16 +1,16 @@
-# Code structures
+# Code structure
 
 ### UI layer
-ui.js - responsible for building UI, rendering HTML markups, etc.
+ui.js - Responsible for building UI, rendering HTML markups, etc.
 
 ### Model layer
-model.js - handle and organize data. Provide data utilities, etc.
+model.js - Handle and organize data. Provide data utilities, etc.
 
 ### Web service layer
-ajax.js - make ajax calls. Handle response headers, remote errors, etc.
+ajax.js - Make ajax calls. Handle response headers, remote errors, etc.
 
 ### Main
-main.js - make everything together.
+main.js - Make everything together.
 
 # Links
 

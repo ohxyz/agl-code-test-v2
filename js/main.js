@@ -1,4 +1,6 @@
 ( function () {
+
+    var url = 'http://agl-developer-test.azurewebsites.net/people.json';
     
     var handleSuccess = function ( people ) {
         
@@ -11,7 +13,7 @@
         
     };
     
-    AJAX.fetchPeople( handleSuccess, handleFailure );
+    AJAX.fetchPeople( url, handleSuccess, handleFailure );
     
 } )();
 
